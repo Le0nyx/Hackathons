@@ -1,0 +1,6 @@
+@todo
+
+nel primo LLM dare come input non solo immagine ma anche testo : dove gli passo variabili 
+{start_date} e {end_date} che sono prese da input dal front end di Giuseppe.(nel testo aggiungi anche decisioni extra utente, 
+tipo dopo X giorni dallo start date di spostare la pianta all' interno della casa) . Cercare di avere come output finale non solo 
+l' immagine della pianta ma anche una descrizione

@@ -1,0 +1,35 @@
+# stuff to ignore
+.vscode
+.cache*
+__pycache__
+*.pth
+.DS_Store
+*SECRET*
+
+# API Keys and Credentials
+.env
+.env.*
+*.env
+.envrc
+*api_key*
+*apikey*
+*api-key*
+*API_KEY*
+*APIKEY*
+*API-KEY*
+credentials.json
+credentials.txt
+*credentials*
+*secrets*
+*token*
+*TOKEN*
+config/secrets.py
+config/credentials.py
+.secrets/
+keys/
+*.key
+*.pem
+*.p12
+*.pfx
+
+

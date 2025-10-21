@@ -1,0 +1,11 @@
+openmeteo-requests
+pandas
+torch
+diffusers
+transformers
+pillow
+requests-cache
+retry-requests
+numpy
+accelerate
+hf_xet
