@@ -1,19 +1,4 @@
 # Hackathons
 
-A collection of projects and code from various hackathons.
-
-## Contents
-
-This repository contains submissions, prototypes, and experiments built during hackathon events.
-
-## Structure
-
-Each hackathon project is organized in its own directory with relevant code and documentation.
-
-## Usage
-
-Browse individual project folders for specific implementations and instructions.
-
-## License
-
-See individual project directories for licensing information.
+- A collection of projects and code from various hackathons.
+- I advice to look at the SFSCON Hackathon as it is a well made and actually working prototype with much love from me and my friends.
