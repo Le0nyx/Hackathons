@@ -1,0 +1,63 @@
+name: convert_to_green
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  auto_size_text: ^3.0.0
+  google_fonts: ^6.3.2
+  flutter_launcher_icons: ^0.14.4
+  flutter_svg: ^2.2.2
+  http: ^1.5.0
+  shared_preferences: ^2.5.3
+  syncfusion_flutter_charts: ^31.1.19
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
+    - assets/logo.svg
+
+flutter_launcher_icons:
+  # dart run flutter_launcher_icons
+  image_path: "assets/logo.png"
+  adaptive_icon_foreground_inset: 25
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/logo.png"
+  adaptive_icon_monochrome: "assets/logo.png"
+
+  android: true
+  ios: true
+  web:
+    generate: true
+    background_color: "#FFFFFF"
+    theme_color: "#92BF2E"
+  windows:
+    generate: false
+  macos:
+    generate: false
+
+
+flutter_native_splash:
+  # fvm dart run flutter_native_splash:create
+  android: true
+  ios: false
+  web: true
+  color: "#FFFFFF"
+  image: assets/icon.png
+  branding: assets/logo.png
+  android_12:
+    color: "#FFFFFF"
+    icon_background_color: "#FFFFFF"
+    branding: assets/logo.png
+
